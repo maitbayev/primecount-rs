@@ -1,0 +1,11 @@
+[package]
+name = "primecount"
+version = "0.1.0"
+authors = ["Madiyar Aitbayev (madiyar92@gmail.com)"]
+edition = "2018"
+
+keywords = ["math", "algorithms", "primecount", "prime"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
