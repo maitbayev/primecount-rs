@@ -1,5 +1,8 @@
+# Rust bindings for primecount
 
-# Update primecount dependency 
+## Contribute
+
+### Update primecount dependency 
 
 ```
 git submodule update --init --recursive
