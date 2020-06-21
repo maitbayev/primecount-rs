@@ -7,8 +7,10 @@ license-file = "LICENSE"
 build = "build.rs"
 repository = "https://github.com/maitbayev/primecount-rs"
 readme = "README.md"
+documentation = "https://docs.rs/primecount"
+homepage = "https://github.com/maitbayev/primecount-rs"
 description = """
-Rust wrapper for https://github.com/kimwalisch/primecount.
+Rust wrapper for https://github.com/kimwalisch/primecount
 """
 keywords = ["math", "algorithms", "primecount", "prime"]
 

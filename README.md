@@ -6,14 +6,17 @@ using highly optimized implementations of the combinatorial
 
 It is a rust wrapper around an awesome [kimwalisch/primecount](https://github.com/kimwalisch/primecount) library.
 
+- [crates.io/crates/primecount](https://crates.io/crates/primecount)
+- [docs.rs/primecount/](https://docs.rs/primecount/)
+
 ## API
 
 **Add to Cargo.toml of your project:**
 ```
 primecount = "0.1.1"
 ```
-**An example code**:
 
+**Examples:**
 ```rust
 use primecount;
 
