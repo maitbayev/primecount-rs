@@ -1,4 +1,22 @@
-# Rust bindings for primecount
+# primecount-rs
+
+primecount-rs is a library that provides APIs for counting the primes below an integer x ≤ 1031 
+using highly optimized implementations of the combinatorial 
+[prime counting algorithms](https://en.wikipedia.org/wiki/Prime-counting_function#Algorithms_for_evaluating_%CF%80(x)).
+
+It is a rust wrapper around an awesome [kimwalisch/primecount](https://github.com/kimwalisch/primecount) library.
+
+## API
+
+```rust
+use primecount;
+
+fn main() {
+    println!("Primes below 1000 = {}", primecount::pi(1000));
+    println!("Numbers below 1000 that are not divisible by any of the first 100 primes (a.k.a. Legendre-sum) = {}", primecount::phi(1000, 100));
+    println!("10th prime = {}", primecount::nth_prime(10));
+}
+```
 
 ## Contribute
 
