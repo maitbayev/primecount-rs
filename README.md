@@ -8,6 +8,12 @@ It is a rust wrapper around an awesome [kimwalisch/primecount](https://github.co
 
 ## API
 
+**Add to Cargo.toml of your project:**
+```
+primecount = "0.1.1"
+```
+**An example code**:
+
 ```rust
 use primecount;
 
@@ -20,7 +26,7 @@ fn main() {
 
 ## Contribute
 
-### Update primecount dependency 
+**Update primecount dependency**:
 
 ```
 git submodule update --init --recursive
