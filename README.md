@@ -1,6 +1,6 @@
 # primecount-rs
 
-primecount-rs is a library that provides APIs for counting the primes below an integer x ≤ 1031 
+primecount-rs is a library that provides APIs for counting the primes below an integer x ≤ 10^31 
 using highly optimized implementations of the combinatorial 
 [prime counting algorithms](https://en.wikipedia.org/wiki/Prime-counting_function#Algorithms_for_evaluating_%CF%80(x)).
 
