@@ -6,6 +6,7 @@ using highly optimized implementations of the combinatorial
 
 It is a rust wrapper around an awesome [kimwalisch/primecount](https://github.com/kimwalisch/primecount) library.
 
+**References**:
 - [crates.io/crates/primecount](https://crates.io/crates/primecount)
 - [docs.rs/primecount/](https://docs.rs/primecount/)
 
