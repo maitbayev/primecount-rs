@@ -8,7 +8,7 @@ It is a rust wrapper around an awesome [kimwalisch/primecount](https://github.co
 
 **References**:
 - [crates.io/crates/primecount](https://crates.io/crates/primecount)
-- [docs.rs/primecount/](https://docs.rs/primecount/)
+- [docs.rs/primecount](https://docs.rs/primecount)
 
 ## API
 
