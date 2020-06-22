@@ -23,7 +23,11 @@ use primecount;
 
 fn main() {
     println!("Primes below 1000 = {}", primecount::pi(1000));
-    println!("Numbers below 1000 that are not divisible by any of the first 100 primes (a.k.a. Legendre-sum) = {}", primecount::phi(1000, 100));
+    println!(
+        "Numbers below 1000 that are not divisible by 
+        any of the first 100 primes (a.k.a. Legendre-sum) = {}",
+        primecount::phi(1000, 100)
+    );
     println!("10th prime = {}", primecount::nth_prime(10));
 }
 ```
