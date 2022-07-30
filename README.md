@@ -34,8 +34,10 @@ fn main() {
 
 ## Contribute
 
-**Update primecount dependency**:
-
+1. Install [cmake](https://cmake.org/)
+2. Update primecount dependency:
 ```
 git submodule update --init --recursive
 ```
+3. `cargo build` to build the library
+4. `cargo test` to run the tests
