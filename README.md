@@ -14,7 +14,7 @@ It is a rust wrapper around an awesome [kimwalisch/primecount](https://github.co
 
 **Add to Cargo.toml of your project:**
 ```
-primecount = "0.1.2"
+primecount = "0.1.3"
 ```
 
 **Examples:**
